@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">TMS_AnOnl_17_Lesson_17</string>
+
+    <string name="text_constraint_layout" translatable="false">Constraint Layout</string>
+    <string name="text_linear_layout" translatable="false">Linear Layout</string>
+    <string name="text_frame_layout" translatable="false">Frame Layout</string>
+
+    <string name="text_sunny">It`s sunny !</string>
+    <string name="text_rainy">It`s rainy !</string>
+    <string name="text_snowy">It`s snowy !</string>
+
+    <string name="btn_next">NEXT</string>
+    <string name="btn_prev">PREV</string>
+</resources>

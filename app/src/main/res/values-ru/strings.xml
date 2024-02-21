@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_sunny">Солнечно !</string>
+    <string name="text_rainy">Дождливо !</string>
+    <string name="text_snowy">Идет снег !</string>
+
+    <string name="btn_next">СЛЕД.</string>
+    <string name="btn_prev">ПРЕД.</string>
+</resources>

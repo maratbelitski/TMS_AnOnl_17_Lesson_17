@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_big">28sp</dimen>
+
+    <dimen name="button_size">90dp</dimen>
+    <dimen name="button_radius_corners">16dp</dimen>
+
+    <dimen name="padding_size_normal">8dp</dimen>
+    <dimen name="padding_size_big">16dp</dimen>
+
+    <dimen name="padding_frame_image">200dp</dimen>
+    <dimen name="padding_frame_second_text">60dp</dimen>
+    <dimen name="padding_frame_button">140dp</dimen>
+
+    <dimen name="margin_size_normal">8dp</dimen>
+</resources>

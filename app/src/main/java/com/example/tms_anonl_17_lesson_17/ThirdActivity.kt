@@ -7,6 +7,13 @@ import android.os.Bundle
 import android.widget.Button
 
 class ThirdActivity : AppCompatActivity() {
+
+    companion object{
+        fun launchIntent(context: Context): Intent {
+            return Intent(context, ThirdActivity::class.java)
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_third)
@@ -14,8 +21,5 @@ class ThirdActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_prev).setOnClickListener {
             finish()
         }
-    }
-    fun launchIntent(context: Context): Intent {
-        return Intent(context, ThirdActivity::class.java)
     }
 }

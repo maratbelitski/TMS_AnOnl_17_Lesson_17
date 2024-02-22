@@ -16,18 +16,20 @@
         android:src="@drawable/weather_rainy"/>
 
     <TextView
-        style="@style/Theme.Lesson_17.MyMainTextStyle"
+        style="@style/MyMainTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
         android:text="@string/text_rainy"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
         android:text="@string/text_linear_layout"
-        style="@style/Theme.Lesson_17.MyMainTextStyle.MySecondTextStyle" />
+        style="@style/MySecondTextStyle" />
 
     <LinearLayout
         android:layout_width="match_parent"

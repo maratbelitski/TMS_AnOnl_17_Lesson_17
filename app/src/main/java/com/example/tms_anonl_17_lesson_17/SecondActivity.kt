@@ -7,20 +7,23 @@ import android.os.Bundle
 import android.widget.Button
 
 class SecondActivity : AppCompatActivity() {
+
+    companion object {
+        fun launchIntent(context: Context): Intent {
+            return Intent(context, SecondActivity::class.java)
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
         findViewById<Button>(R.id.btn_next).setOnClickListener {
-            startActivity(ThirdActivity().launchIntent(this))
+            startActivity(ThirdActivity.launchIntent(this))
         }
 
         findViewById<Button>(R.id.btn_prev).setOnClickListener {
             finish()
         }
-    }
-
-    fun launchIntent(context: Context): Intent {
-        return Intent(context, SecondActivity::class.java)
     }
 }

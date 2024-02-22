@@ -13,7 +13,7 @@
         <item name="android:background">@drawable/selector_buttons</item>
     </style>
 
-    <style name="Theme.Lesson_17.MyMainTextStyle">
+    <style name="MyMainTextStyle" parent="MaterialAlertDialog.Material3.Title.Text">
         <item name="android:textSize">@dimen/text_size_big</item>
         <item name="android:padding">@dimen/padding_size_big</item>
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
@@ -21,7 +21,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Theme.Lesson_17.MyMainTextStyle.MySecondTextStyle">
+    <style name="MySecondTextStyle" parent="MyMainTextStyle">
         <item name="android:textSize">@dimen/text_size_normal</item>
         <item name="android:textStyle">italic</item>
     </style>
